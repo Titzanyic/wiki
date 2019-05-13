@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="个人导航" />
+    <meta name="author" content="viggo" />
+    <title>网址导航</title>
+    <meta name="keywords" content="titzanyic">
+    <meta name="description" content="导航">
+    <link rel="shortcut icon" href="http://img.zhangyongcun.com/2018-12-07-favicon.png">
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.3/css/bootstrap-grid.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://img.zhangyongcun.com/2018-12-07-xenon-core.css">
+    <link rel="stylesheet" href="http://img.zhangyongcun.com/2018-12-07-xenon-components.css">
+    <link rel="stylesheet" href="http://img.zhangyongcun.com/2018-12-07-xenon-skins.css">
+    <link rel="stylesheet" href="http://img.zhangyongcun.com/2018-12-07-nav.css">
+</head>
+<body class="page-body">
+    <div class="page-container">
+        <div class="main-content">
+        </div>
+    </div>
+    <script>
+    let url = 'http://www.zhangyongcun.com/links.json';
+    $.ajax({
+        url: url,
+        type: 'get',
+        crossDomain: true,
+        dataType: 'json',
+        success: function(data) {
+            let html = [];
+            data.forEach(item1 =>{
+              let html1=[]
+              item1.links.map(item2 => {
+                html1.push(`
+                  <div class="col-sm-3">
+                      <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('${item2.url}')" data-toggle="tooltip" data-placement="bottom" title=""  data-original-title="${item2.url}">
+                        <div class="xe-comment-entry">
+                          <a class="xe-user-img">
+                            <img src="${item2.icon}" class="img-circle" width="60">
+                          </a>
+                          <div class="xe-comment">
+                            <strong >${item2.name}</strong>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  `)
+              })
+              var html2=`<h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;"></i>${item1.group}</h4>
+              <div class="row">${html1.join('')}</div>
+              <br/>`
+              html.push(html2)
+            })
+            $(".main-content").html(html.join(''))
+        },
+        error: function(error) {
+            console.log(error);
+        }
+    })
+    </script>
+</body>
+
+</html>

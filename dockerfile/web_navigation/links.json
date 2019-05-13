@@ -1,0 +1,192 @@
+[
+  {
+    "group": "常用",
+    "links": [
+      {
+        "name": "Google",
+        "url": "https://www.google.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-google.png"
+      },
+      {
+        "name": "Gmail",
+        "url": "https://mail.google.com",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-gmail-1.png"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://youtube.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-youtube-1.png"
+      },
+      {
+        "name": "微博",
+        "url": "https://weibo.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-weibo.png"
+      },
+      {
+        "name": "Google Photo",
+        "url": "https://photo.google.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-google_photos.png"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-twitter.png"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-github-1.png"
+      },
+      {
+        "name": "微信公众号",
+        "url": "https://mp.weixin.qq.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-github-1.png"
+      }
+    ]
+  },
+  {
+    "group": "云服务",
+    "links": [
+      {
+        "name": "NAS-WAN",
+        "url": "https://www.google.com:5001/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-Folder_Sites_128px_1173622_easyicon.net.png"
+      },
+      {
+        "name": "NAS-LAN",
+        "url": "https://192.168.1.180:5001/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-Folder_ICloud_128px_1173614_easyicon.net.png"
+      },
+      {
+        "name": "路由器",
+        "url": "http://wifi.google.com:88/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-wifi-connection-signal-symbol.png"
+      },
+      {
+        "name": "Gogs",
+        "url": "http://www.google.com:3000",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-git_logo_media_social_128px_1212972_easyicon.net.png"
+      },
+      {
+        "name": "Tiny Tiny Rss",
+        "url": "http://g.google.com:1280/ttrss/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-rss.png"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "url": "https://console.cloud.google.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-google-cloud.png"
+      }
+    ]
+  },
+  {
+    "group": "购物",
+    "links": [
+      {
+        "name": "京东",
+        "url": "https://jd.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-jingdong.png"
+      },
+      {
+        "name": "淘宝",
+        "url": "https://taobao.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-taobao.png"
+      },
+      {
+        "name": "Amazon",
+        "url": "https://www.amazon.cn",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-amazon.png"
+      },
+      {
+        "name": "什么值得买",
+        "url": "https://www.smzdm.com",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-162107.jpg"
+      },
+      {
+        "name": "历史价格",
+        "url": "http://tool.manmanbuy.com/HistoryLowest.aspx",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-price-tag.png"
+      }
+    ]
+  },
+  {
+    "group": "工具",
+    "links": [
+      {
+        "name": "出国留学",
+        "url": "https://portal.shadowsocks.nu/cart.php",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-graduation.png"
+      },
+      {
+        "name": "shadowsocks for Android",
+        "url": "https://github.com/shadowsocks/shadowsocks-android/releases/download/v4.6.2/shadowsocks--universal-4.6.2.apk",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-graduation.png"
+      },
+      {
+        "name": "模拟HTTP响应",
+        "url": "https://www.mocky.io/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-graduation.png"
+      }
+    ]
+  },
+  {
+    "group": "下载",
+    "links": [
+      {
+        "name": "百度云",
+        "url": "https://pan.baidu.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-google.png"
+      },
+      {
+        "name": "迅雷远程",
+        "url": "http://yuancheng.xunlei.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-xunlei.png"
+      },
+      {
+        "name": "Kindle电子书",
+        "url": "https://bookset.me/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-amazon_kindle_72px_1127480_easyicon.net.png"
+      },
+      {
+        "name": "图标资源",
+        "url": "https://www.flaticon.com",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-browser.png"
+      },
+      {
+        "name": "Docker(七牛)",
+        "url": "https://hub.qiniu.com/home",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-browser.png"
+      }
+    ]
+  },
+  {
+    "group": "MAC OS",
+    "links": [
+      {
+        "name": "xclient(MAC 软件)",
+        "url": "http://xclient.info/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-browser.png"
+      },
+      {
+        "name": "waitsun(MAC 软件)",
+        "url": "https://www.waitsun.com/",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-browser.png"
+      }
+    ]
+  },
+  {
+    "group": "Windows",
+    "links": [
+      {
+        "name": "NotePad++",
+        "url": "http://file.zhangyongcun.com/npp7.6.1.Installer.exe",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-browser.png"
+      },
+      {
+        "name": "shadowsocks for Win",
+        "url": "https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.3.1/Shadowsocks-4.1.3.1.zip",
+        "icon": "http://img.zhangyongcun.com/2018-12-07-graduation.png"
+      }
+    ]
+  }
+]
