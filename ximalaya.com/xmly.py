@@ -6,7 +6,7 @@ headers = {'Content-Type': 'application/json', 'User-Agent': 'PostmanRuntime/7.1
 
 album_id = str(335347)
 base_url = "http://www.ximalaya.com/revision/play/album?albumId=" + album_id + "&sort=0&pageSize=30&pageNum="
-base_download_path = '/Users/titzanyic/Desktop/xmly/'
+base_download_path = '~/Downloads/xmly/'
 
 aria2 = aria2p.API(
     aria2p.Client(
